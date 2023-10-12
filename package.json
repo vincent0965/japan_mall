@@ -2,7 +2,7 @@
   "name": "shopping_mall",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vincent0965/japan_mall.git",
+  "homepage": "https://vincent0965.github.io/japan_mall",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
