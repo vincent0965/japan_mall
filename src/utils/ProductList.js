@@ -69,7 +69,8 @@ const ProductList = [
         price:160,
         category:3,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/sapoot/cabinet/00372421/img57631072.jpg",
-        info:"薩隆帕斯藥布 大片12枚入 (7.2 * 13 公分)"
+        info:"薩隆帕斯藥布 大片12枚入 (7.2 * 13 公分)",
+        mass:2000
     },
     {
         id:"303",
@@ -77,7 +78,8 @@ const ProductList = [
         price:190,
         category:3,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/ladydrug/cabinet/gazo21/4903301025726_2.jpg",
-        info:"PAIR 皮膚藥(24g)"
+        info:"PAIR 皮膚藥(24g)",
+        mass:4000
     },
     {
         id:"304",
@@ -85,7 +87,8 @@ const ProductList = [
         price:420,
         category:3,
         img:"https://shop.r10s.jp/genki-e-shop-hanshin/cabinet/c/4987241119912.jpg",
-        info:"曼秀雷敦 AD20(金色) 乳液(120ml)"
+        info:"曼秀雷敦 AD20(金色) 乳液(120ml)",
+        mass:3000
     },
     {
         id:"305",
@@ -184,130 +187,130 @@ const ProductList = [
         info:"EVE頭痛藥(金色) 40錠入 含有保護胃黏膜成分 不傷胃"
     },
     {
-        id:"701",
+        id:"801",
         name:"ミンティア MINTIA",
         price:280,
-        category:7,
+        category:8,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/worldcontact/cabinet/06747508/06930002/imgrc0100668032.jpg",
         info:"MINTIA 薄荷糖 (10盒為一組)"
     },
     {
-        id:"702",
+        id:"802",
         name:"UCC 職人の珈琲",
         price:850,
-        category:7,
+        category:8,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/soukaidrink/cabinet/466/404466-2.jpg",
         info:"UCC 職人の珈琲 100包/箱"
     },
     {
-        id:"703",
+        id:"803",
         name:"森永製菓 塩キャラメル袋",
         price:80,
-        category:7,
+        category:8,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/segp-shop/cabinet/kashi/imgrc0075803477.jpg",
         info:"森永牛奶糖 92g/包"
     },
     {
-        id:"704",
+        id:"804",
         name:"ロッテ ブラックブラック",
         price:1150,
-        category:7,
+        category:8,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/ladydrug/cabinet/gazo27/4903333106530_2.jpg",
         info:"LOTTE 黑X黑 口香糖 (6罐/箱)"
     },
     {
-        id:"705",
+        id:"805",
         name:"茅乃舎だし",
         price:990,
-        category:7,
+        category:8,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/sup-s-r/cabinet/tyoumiryou/5syu.jpg",
         info:"茅乃舍高湯包 (一般/減鹽/蔬菜/香菇/魚乾) (五包入)"
     },
     {
-        id:"706",
+        id:"806",
         name:"日清食品 カップヌードル 75g 5入",
         price:350,
-        category:7,
+        category:8,
         img:"https://tshop.r10s.jp/kimisara/cabinet//compass1691839283.jpg?_ex=200x200&s=0&r=1",
         info:"日清杯麵 75g (左上-右下: 醬油、海鮮、咖哩、味噌、番茄，欲購買請私訊告知要哪一種,最少5杯)"
     },
     {
-        id:"801",
+        id:"901",
         name:"白い恋人チョコ",
         price:600,
-        category:8,
+        category:9,
         img:"https://tshop.r10s.jp/hokkaido-omiyage/cabinet/koibito/isiya013-pack.jpg?downsize=330:*",
         info:"白色戀人巧克力 24包入/盒"
     },
     {
-        id:"802",
+        id:"902",
         name:"メリー チョコレート",
         price:600,
-        category:8,
+        category:9,
         img:"https://shop.r10s.jp/gift-lien/cabinet/sweets/marys1000-1.jpg",
         info:"Mary`s 巧克力禮盒 24入/盒"
     },
     {
-        id:"803",
+        id:"903",
         name:"東京ばな奈",
         price:440,
-        category:8,
+        category:9,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/brings/cabinet/tokyobanana/normal/banana-img.jpg",
         info:"東京香蕉蛋糕 8入/盒"
     },
     {
-        id:"804",
+        id:"904",
         name:"サンリツ サンフィガロ",
         price:480,
-        category:8,
+        category:9,
         img:"https://shop.r10s.jp/tabaki/cabinet/tukurikomi/figaro/g1924-206_1.jpg",
         info:"FIGARO 餅乾禮盒 42入/盒"
     },
     {
-        id:"901",
+        id:"1001",
         name:"DHA&EPA + セサミンEX",
         price:2300,
-        category:9,
+        category:10,
         img:"https://www.suntory-kenko.com/assets/img/supplement/main/43322/product_summary/pkg_dha_kv_rn.png?20220622",
         info:"三得利 DHA 魚油 240粒入"
     },
     {
-        id:"902",
+        id:"1002",
         name:"グルコサミン アクティブ",
         price:2100,
-        category:9,
+        category:10,
         img:"https://www.suntory-kenko.com/assets/img/supplement/main/43341/product_summary/pkg_glc_kv.png?20220524",
         info:"三得利 固立申 甲殼軟骨素葡萄糖胺 360粒入"
     },
     {
-        id:"903",
+        id:"1003",
         name:"黒酢にんにく",
         price:1100,
-        category:9,
+        category:10,
         img:"https://www.suntory-kenko.com/assets/img/supplement/pouch/43371/product_summary/pkg_kznk_kv.png?20220524",
         info:"三得利 黑醋大蒜精 180粒入"
     },
     {
-        id:"904",
+        id:"1004",
         name:"ビトアス ザ パーフェクト セラムく",
         price:2200,
-        category:9,
+        category:10,
         img:"https://www.suntory-kenko.com/assets/img/skincare/vitoas/52100/product_summary/pkg_52100_kv.png?20220915",
         info:"三得利 美顏保濕精華乳液 120ml"
     },
     {
-        id:"905",
+        id:"1005",
         name:"セサミンEX",
         price:2300,
-        category:9,
+        category:10,
         img:"https://www.suntory-kenko.com/Content/abtest/s3622/img/pkg_ssmn_kv_s3622.png?20220825",
         info:"三得利 芝麻明E 270粒入"
     },
     {
-        id:"906",
+        id:"1006",
         name:"Milcolla[ミルコラ]",
         price:1300,
-        category:9,
+        category:10,
         img:"https://i2.momoshop.com.tw/1693091039/goodsimg/0009/143/614/9143614_B.webp",
         info:"三得利 蜜露珂娜 30包入"
     }
