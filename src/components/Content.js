@@ -73,8 +73,9 @@ function Content() {
                     <img src={e.img} alt={e.name} className="card-img-top" />
                     <div className="card-body">
                         <h5>{e.name}</h5>
-                        <p>$ {e.price}</p>
-                        <p>{e.info}</p>
+                        <p>價格: $ {e.price}</p>
+                        <p>商品說明: {e.info}</p>
+                        <p>商品重量: {e.mass} g</p>
                         <button className='btn btn-primary' onClick={() => addToCart(e)}>新增到購物車</button>
                     </div>
                 </div>
@@ -92,14 +93,13 @@ function Content() {
                             <ButtonGroup size="sm" aria-label="Basic example">
                                 <Button variant="secondary" onClick={() => setSelectedCategory('所有')} >所有</Button>
                                 <Button variant="secondary" onClick={() => setSelectedCategory(1)}>胃腸藥</Button>
-                                <Button variant="secondary" onClick={() => setSelectedCategory(3)}>貼布、外用藥</Button>
+                                <Button variant="secondary" onClick={() => setSelectedCategory(3)}>貼布、皮膚外用藥</Button>
                                 <Button variant="secondary" onClick={() => setSelectedCategory(4)}>營養補充品</Button>
                                 <Button variant="secondary" onClick={() => setSelectedCategory(5)}>眼藥水</Button>
                                 <Button variant="secondary" onClick={() => setSelectedCategory(6)}>感冒、頭痛藥</Button>
                                 <Button variant="secondary" onClick={() => setSelectedCategory(7)}>美妝</Button>
                                 <Button variant="secondary" onClick={() => setSelectedCategory(8)}>餅乾、糖果</Button>
-                                <Button variant="secondary" onClick={() => setSelectedCategory(9)}>禮盒</Button>
-                                <Button variant="secondary" onClick={() => setSelectedCategory(10)}>三得利</Button>
+                                <Button variant="secondary" onClick={() => setSelectedCategory(9)}>三得利</Button>
                             </ButtonGroup>
                         </div>
                         {product}
