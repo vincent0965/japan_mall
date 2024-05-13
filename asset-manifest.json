@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/japan_mall/static/css/main.c4002c11.css",
-    "main.js": "/japan_mall/static/js/main.79ace8e4.js",
+    "main.js": "/japan_mall/static/js/main.90a71c0b.js",
     "static/js/787.3f37af5e.chunk.js": "/japan_mall/static/js/787.3f37af5e.chunk.js",
     "index.html": "/japan_mall/index.html",
     "main.c4002c11.css.map": "/japan_mall/static/css/main.c4002c11.css.map",
-    "main.79ace8e4.js.map": "/japan_mall/static/js/main.79ace8e4.js.map",
+    "main.90a71c0b.js.map": "/japan_mall/static/js/main.90a71c0b.js.map",
     "787.3f37af5e.chunk.js.map": "/japan_mall/static/js/787.3f37af5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4002c11.css",
-    "static/js/main.79ace8e4.js"
+    "static/js/main.90a71c0b.js"
   ]
 }
