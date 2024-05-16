@@ -347,7 +347,8 @@ const ProductList = [
         price:80,
         category:8,
         img:"https://thumbnail.image.rakuten.co.jp/@0_mall/segp-shop/cabinet/kashi/imgrc0075803477.jpg",
-        info:"森永牛奶糖 92g/包"
+        info:"森永牛奶糖 92g/包",
+        mass: 110
     },
     {
         id:"803",
